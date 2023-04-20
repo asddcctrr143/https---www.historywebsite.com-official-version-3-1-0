@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  header{
+    background: red;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: orange;
+  }
+  
+  body {
+    background-color: lightgrey;
+      font-family: "Helvetica", sans-serif;
+      color: purple;
+  }
+   h1 {
+      color: black;
+      font-family: "Times New Roman", serif;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: white;
+    }
+    h2{
+      color: black;
+      font-weight: bold;
+    }
+    
+  nav ul {
+      background-color: tomato;
+      border-style: solid;
+      border-color: orange;
+      border-width: 2px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  
+      nav ul li {
+          list-style-type: none;
+          display: inline;
+          margin-right: 10px;
+          margin-left: 10px;
+          color: red;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: indigo;
+    }
+    
+    .btn {
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid;
+  }
+  
+  .btn-alt {
+    border-color: orange;
+    padding: 10px 30px;
+    background:red;
+    color:#000;
+  }
+  
+  .btn-alt:hover {
+    background: #000;
+    color: #fff;
+    border-color: red;
+    border-width: 10px;
+  }
+  
+  .btn-alt:active{
+    background: white;
+    color: white;
+    border-color: green;
+  }
+  
+  .btn-alt:visited{
+    background: #fff;
+    color: #ffb3ff;
+    border-color: orange;
+  }
+  
+  .btn{
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid;
+  }
+  
+  .btn_alt{
+    border-color: black;
+    padding: 10px 30px;
+    background: blue;
+    color: #000;
+  }
+  
+  .btn_alt:hover{
+    background: #000;
+    color: #fff;
+    border-color: maroon;
+    border-width: 10px;
+  }
+  
+  .btn-alt:active{
+    background:white;
+    color:white;
+    border-color: green;
+  }
+  
+  .btn-alt:visited{
+    background:#fff;
+    color:#ffb3ff;
+    border-color: orange;
+  }
+  
+  footer {
+    background-color: grey;
+    border-radius: 10px;
+    border-color: maroon;
+    border-style: solid;
+    border-width: 10px;
+  }
+  #video{
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: red; 
+  }
+  
+  a:hover{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: maroon;
+    border-style: dashed;
+    color: maroon;
+    background-color: white;
+  }
+  
+  .image{
+    background-color: yellow;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /**********************************
+  This section is for styling tables
+  ***********************************/
+  table, th, td {
+    border: 1px solid HoneyDew;
+    border-collapse: collapse;
+  }
+  tr {
+    background-color: PaleTurquoise;
+  }
+  th, td {
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    color: purple;
+  }
+  td {
+    color: purple;
+  }
+  /********************************/
